@@ -1,0 +1,11 @@
+.content-start{
+    margin: 90px 0 160px 0;
+    padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .content-start{
+        margin: 50px 0 30px 0;
+        padding: 0!important;
+    }
+}

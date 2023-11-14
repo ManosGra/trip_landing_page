@@ -1,0 +1,36 @@
+header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+header.active{
+    background-color: #0a3e5c;
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.contact a {
+    background-color: white;
+    color: #0a3e5c;
+    border-radius: 2px;
+    padding: 10px;
+    color: #0a3e5c;
+}
+
+& .contact a:hover {
+    color: white;
+    background-color: #0a3e5c;
+    transition: 1s;
+}
+
+@media screen and (max-width: 992px) {
+    header{
+        display: none!important;
+     }
+}

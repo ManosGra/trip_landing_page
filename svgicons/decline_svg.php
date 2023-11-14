@@ -1,0 +1,1 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon__3e6C icon__15Eg greyCross__2ICl"><path d="M3.97 14.97a.75.75 0 101.06 1.06L10 11.06l4.97 4.97a.75.75 0 101.06-1.06L11.06 10l4.97-4.97a.75.75 0 00-1.06-1.06L10 8.94 5.03 3.97a.75.75 0 00-1.06 1.06L8.94 10l-4.97 4.97z"></path></svg>

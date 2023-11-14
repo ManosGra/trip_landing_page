@@ -1,0 +1,48 @@
+.hero{
+    background: url("/images/pos.jpg");
+    background-color: white;
+    background-size: cover;
+    padding: 350px 0;
+    position: relative;
+    height: 100vh;
+        .hero-content{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            padding: 100px;
+        }&.hero::before{
+            position: absolute;
+            content: "";
+            background-color: black;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            top: 0;
+            bottom: 0;
+            opacity: 0.6;
+        }
+        .title{
+            font-size: 55px;
+            letter-spacing: 1.2px;
+        } 
+}
+
+@media screen and (max-width: 420px) {
+    .hero{
+        width: 100%;
+    } 
+    .hero-content {
+      padding: 0!important;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .hero{
+        width: 100%;
+    } 
+  }
+
+
+

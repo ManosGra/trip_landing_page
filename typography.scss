@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    color:#0a364f!important;
+}
+
+.f-bold{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    letter-spacing: 0.9px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li{
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.9px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: transparent;
+    border: 2px solid #0a364f;
+    border-radius: 2px;
+    color:#0a364f;
+    padding: 10px;
+    &.button:hover{
+        background-color: #0a364f;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        transition: 1s;
+        border-radius: 2px;
+    }
+
+}

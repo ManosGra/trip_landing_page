@@ -1,0 +1,27 @@
+.content-end{
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 992px) {
+    .content-end h5{
+        margin: 0!important;
+        padding: 0!important;
+        padding-bottom: 20px!important;
+        text-align: center;
+    }
+
+    .content-end ul{
+        justify-content: space-around;
+    }
+
+    .content-end li{
+        list-style: none;
+    }
+
+    .content-end .items{
+        margin: 0!important;
+        padding: 0!important;
+        padding-bottom: 10px!important;
+        text-align: center;
+    }
+}
