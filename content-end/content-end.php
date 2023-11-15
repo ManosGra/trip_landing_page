@@ -35,5 +35,7 @@
                 </ul>
             </div>
         </div>
+
+        <hr>
     </div>
 </div>
