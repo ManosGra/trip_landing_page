@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="content-image">
-                    <img class="img-fluid" src="/images/b1.jpg">
+                    <img class="img-fluid" src="/images/temple.jpg">
                 </div>
             </div>
 
