@@ -11,7 +11,7 @@
                 <div class="content-text">
                     <div class="section-header-tour">
                         <h2 class="f-bold text-center mb-5" id="tour">THE TRIP</h2>
-                        <span></span>
+                        <span class="header-span"></span>
                     </div>
 
                     <p>

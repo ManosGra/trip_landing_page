@@ -4,7 +4,7 @@
             <div class="col-12">
                 <div class="section-header-mission">
                     <h2 class="f-bold text-center mb-5" id="overview">OVERVIEW</h2>
-                    <span></span>
+                    <span class="header-span"></span>
                 </div>
             </div>
             <div class="col-12">

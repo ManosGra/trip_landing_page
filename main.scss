@@ -19,8 +19,8 @@ body{
     color: white!important;
 }
 
-@media screen and (max-width: 1200px) {
-  span {
+@media screen and (max-width: 1400px) {
+  .header-span{
     display: none;
   }
 }
