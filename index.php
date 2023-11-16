@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="main.scss">
     <link rel="stylesheet" href="typography.scss">
     <link rel="stylesheet" href="header/header.scss">
@@ -38,9 +42,9 @@
     <?php include 'content-left/content-left.php' ?>
 
     <?php include 'content-right/content-right.php' ?>
-    
+
     <?php include 'content-end/content-end.php' ?>
-    
+
     <?php include 'footer/footer.php' ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

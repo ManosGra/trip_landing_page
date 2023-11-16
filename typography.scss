@@ -1,35 +1,52 @@
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Roboto', sans-serif;
-    color:#0a364f!important;
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #0a364f !important;
+}
+@media screen and (max-width: 992px) {
+    h1 {
+        font-family: 'Archivo Black', sans-serif;
+        color: white !important;
+        font-size: 60px!important;
+    }
 }
 
-.f-bold{
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #0a364f !important;
+}
+
+.f-bold {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
-a{
+a {
     letter-spacing: 0.9px;
     font-family: 'Roboto', sans-serif;
 }
 
-ul li{
+ul li {
     font-family: 'Roboto', sans-serif;
 }
 
-button{
+button {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.9px;
     font-weight: bold;
 }
 
-.button{
+.button {
     background-color: transparent;
     border: 2px solid #0a364f;
     border-radius: 2px;
-    color:#0a364f;
+    color: #0a364f;
     padding: 10px;
-    &.button:hover{
+
+    &.button:hover {
         background-color: #0a364f;
         color: white;
         padding: 10px;
