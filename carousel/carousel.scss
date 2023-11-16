@@ -107,11 +107,15 @@
 @media screen and (max-width:992px) {
     .btns .btn{
         margin: 0 95px;
+
     }
 }
 
 @media screen and (max-width:768px) {
+    .btns .btn{
+        margin: 0 88px;
 
+    }
     .btns .btn::before{
         border-top: 3px solid white;
         border-right: 3px solid white;
