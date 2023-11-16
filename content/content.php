@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="col-12">
-                <div class="main-text">
+                <div class="main-text text-center">
                     <p>Embark on a captivating journey through the rich history and breathtaking
                         landscapes of the Athens
                         Riviera. Our road trip adventure promises an unforgettable exploration of iconic sites,
