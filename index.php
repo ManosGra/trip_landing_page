@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="typography.scss">
     <link rel="stylesheet" href="header/header.scss">
     <link rel="stylesheet" href="hero/hero.scss">
+    <link rel="stylesheet" href="modal/modal.scss">
     <link rel="stylesheet" href="content/content.scss">
     <link rel="stylesheet" href="content-start/content-start.scss">
     <link rel="stylesheet" href="content-left/content-left.scss">
