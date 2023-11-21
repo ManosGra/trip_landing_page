@@ -3,7 +3,14 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
 @media screen and (max-width: 420px) {
+  body {
+      width: 100vh;
+  }
+}
+
+@media screen and (max-width: 575px) {
   body {
       width: 100vh;
   }
