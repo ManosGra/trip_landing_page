@@ -20,13 +20,12 @@ header.active{
     color: #0a3e5c;
     border-radius: 2px;
     padding: 10px;
-    color: #0a3e5c;
 }
 
 & .contact a:hover {
     color: white;
-    background-color: #0a3e5c;
-    transition: 1s;
+    background-color: transparent;
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 992px) {
