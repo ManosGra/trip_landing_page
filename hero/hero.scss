@@ -31,9 +31,16 @@
         opacity: 0.4;
     }
 
+    @media screen and (max-width: 420px) {
+        .hero {
+            height: 100vh;
+        }
+    }
+
     @media screen and (max-width: 576px) {
         .hero {
             width: 100%;
+            height: 100vh;
         }
     }
 
