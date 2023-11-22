@@ -14,7 +14,7 @@
                         <span class="header-span"></span>
                     </div>
 
-                    <p>
+                    <p class="text-center">
                         Embark on a scenic journey along the renowned "Athens Riviera," starting with pickups from our
                         guests' locations. We'll traverse captivating spots such as Vouliagmeni Lake, Limanakia, Mavro
                         Lithari, and Saronida before reaching the majestic Temple of Poseidon at Sounio. Along the way,

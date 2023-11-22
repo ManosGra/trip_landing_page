@@ -8,7 +8,7 @@
                         <span class="header-span"></span>
                     </div>
                     
-                    <p>
+                    <p class="text-center">
                     Escape the hustle and bustle of the city with a seamless full-day private tour, exploring the Athenian Riviera and Cape Sounio. Experience the invigorating breeze in your hair as you journey from your Athens hotel to the picturesque coast in a convertible car. Enjoy leisurely stops for swimming and capturing stunning moments. As the day unfolds, witness the breathtaking sunset at the iconic Temple of Poseidon in Cape Sounio. Benefit from hassle-free hotel pickup, travel in comfort in a convertible, and savor the freedom to explore at your own pace. Marvel at the enchanting views of the Temple of Poseidon as the sun sets, making this a truly unforgettable adventure.
                     </p>
                 </div>
