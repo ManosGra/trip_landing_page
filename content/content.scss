@@ -48,3 +48,9 @@
     margin-bottom: 30px !important;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .content h2 {
+    font-size: 45px;
+  }
+}

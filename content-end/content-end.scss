@@ -25,3 +25,13 @@
         text-align: center;
     }
 }
+@media screen and (max-width: 420px) {
+    .content-end h5{
+        font-size: 45px!important;
+        padding-bottom: 30px!important;
+    }
+
+    .content-end ul{
+        font-size: 25px!important;
+    }
+}
