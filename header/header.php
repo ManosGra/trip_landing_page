@@ -26,7 +26,7 @@
                             class="text-decoration-none text-white">What's included</a>
                     </li>
                     
-                    <li class="contact d-block ms-auto list-unstyled"><a href="#" class="text-decoration-none">Contact
+                    <li class="contact d-block ms-auto list-unstyled"><a href="#modal" class="text-decoration-none">Contact
                             us</a></li>
                 </ul>
             </div>
