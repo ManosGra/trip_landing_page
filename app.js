@@ -61,3 +61,16 @@ next.addEventListener('click', function () {
 
     box.style.transform = `perspective(1000px) rotateY(${degrees}deg)`;
 })
+
+/*MODAL CALL */
+const openBtn = document.getElementById("openModal");
+const closeBtn = document.getElementById("closeModal");
+const modal = document.getElementById("modal");
+
+openBtn.addEventListener("click", () => {
+    modal.classList.add("open");
+});
+
+closeBtn.addEventListener("click", () => {
+    modal.classList.remove("open");
+});

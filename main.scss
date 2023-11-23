@@ -39,52 +39,70 @@ body {
 }
 
 .contact-us {
-  background-color: #0a364f;
-  border: 2px solid black;
-  max-width: 500px;
-  margin: 120px auto;
-  padding: 20px 70px;
-  border-radius: 6px;
-}
+  position: fixed;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: -30;
 
-.input-box {
-  .field {
-    margin-bottom: 20px;
-
-    .item-1 {
-      border-radius: 5px;
-      border: 5px solid white;
-      width: 100%;
-      min-width: 350px;
-    }
-  }
-
-  .textarea-field {
-    .item-1 {
-      height: 100px;
-    }
-  }
-
-  .submit {
-    color: white;
-    background-color: transparent;
+  .modal-background {
+    background-color: #0a364f;
+    padding: 0 50px 20px 50px;
     border: 2px solid white;
     border-radius: 5px;
+    margin-top: 20px;
   }
 
-  & .submit:hover {
-    color: #0a364f!important;
-    background-color: white!important;
-  }
+  .input-box {
+    .field {
+      margin-bottom: 20px;
 
-  .close {
-    color: #0a364f;
-    background-color: white;
-    border-radius: 5px;
-  }
+      .item-1 {
+        border-radius: 5px;
+        border: 5px solid white;
+        width: 100%;
+        min-width: 350px;
+      }
+    }
 
-  &.close:hover {
-    color: #0a364f;
-    background-color: white;
+    .textarea-field {
+      .item-1 {
+        height: 100px;
+      }
+    }
+
+    .submit {
+      color: white;
+      background-color: transparent;
+      border: 2px solid white;
+      border-radius: 5px;
+      padding: 10px 50px;
+    }
+
+    & .submit:hover {
+      color: #0a364f !important;
+      background-color: white !important;
+      padding: 10px 50px !important;
+    }
+
+    .close {
+      color: #0a364f;
+      background-color: white;
+      border: 2px solid white;
+      border-radius: 5px;
+      padding: 10px 50px;
+    }
+
+    & .close:hover {
+      color: white;
+      background-color: transparent;
+      border: 2px solid white !important;
+      border-radius: 5px !important;
+      padding: 10px 50px!important;
+    }
   }
+}
+
+& .contact-us .open {
+  opacity: 1;
+  z-index: -999;
 }
