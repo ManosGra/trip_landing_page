@@ -1,20 +1,20 @@
 <div class="content-end box show">
     <div class="container-lg">
         <hr>
-        <h2 class="text-center mb-4 f-bold text-center" id="included">What's included</h2>
+        <h2 class="text-center my-4 f-bold text-center" id="included">What's included</h2>
         <ul class="d-flex flex-row align-items-center p-0 m-0 justify-content-center">
-            <li class="items list-unstyled d-flex flex-row align-items-center me-4">
+            <li class="items list-unstyled mx-3 d-flex flex-row align-items-center me-4">
                 <?php include 'svgicons/check_svg.php' ?>Coffee/tea,water
             </li>
 
-            <li class="items list-unstyled d-flex flex-row align-items-center">
+            <li class="items list-unstyled mx-3 d-flex flex-row align-items-center">
                 <?php include 'svgicons/decline_svg.php' ?>Coffee/tea,water
             </li>
         </ul>
 
         <hr>
 
-        <h2 class="text-center mb-4 f-bold text-center" id="overview">Additional Info</h2>
+        <h2 class="text-center my-4 f-bold text-center" id="overview">Additional Info</h2>
         <div class="row items text-center">
             <div class="col-md-12">
                 <div class="items">
