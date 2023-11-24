@@ -23,8 +23,8 @@
             </div>
 
             <div class="d-flex flex-row justify-content-between align-items-center">
-                <button class="button" id="closeModal">CLOSE</button>
-                <button class="button" type="submit">SEND MESSAGE</button>
+                <a href="#" class="f-bold text-decoration-none button" id="closeModal">CLOSE</a>
+                <button class="f-bold button" type="submit">SEND MESSAGE</button>
             </div>
         </form>
     </div>
