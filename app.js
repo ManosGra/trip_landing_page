@@ -74,3 +74,32 @@ openBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
     modal.classList.remove("open");
 });
+
+/* SMTP SCRIPT*/
+const form = document.querySelector("form");
+const fullName = document.getElementById("name");
+const email = document.getElementById("email");
+const subject = document.getElementById("subject");
+const mess = document.getElementById("mesage");
+
+function sendEmail() {
+    const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}<br> Message: ${mess.value}`;
+
+    Email.send({
+        Host: "smtp.elasticemail.com", 
+        Username: "manosgrammos9@gmail.com",
+        Password: "8F08C80BDF25D3DB73F1355B91C9EDA878DA",
+        To: 'manosgrammos9@gmail.com',
+        From: "manosgrammos9@gmail.com",
+        Subject: subject.value,
+        Body: bodyMessage
+    }).then(
+        message => alert(message) 
+    );
+}
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    sendEmail();
+});

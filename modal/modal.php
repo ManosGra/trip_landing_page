@@ -24,7 +24,7 @@
 
             <div class="d-flex flex-row justify-content-between align-items-center">
                 <button class="button" id="closeModal">CLOSE</button>
-                <button class="button" type="submit">SUBMIT</button>
+                <button class="button" type="submit">SEND MESSAGE</button>
             </div>
         </form>
     </div>
