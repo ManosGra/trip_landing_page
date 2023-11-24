@@ -45,7 +45,22 @@
     <?php include 'content-right/content-right.php' ?>
 
     <?php include 'content-end/content-end.php' ?>
+    
+    <div class="modal" id="modal">
+        <div class="modal-inner">
+            <h2 class="mb-4">Contact us</h2>
+            <form action="#">
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    </div>
+
+                    <div class="input-field field">
+                        <input type="text" placeholder="Email" id="email" class="item" autocomplete="off">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
     <?php include 'footer/footer.php' ?>
-
-    <?php include 'modal/modal.php' ?>
