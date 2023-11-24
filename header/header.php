@@ -14,24 +14,23 @@
                             class="text-decoration-none text-white">Overview</a>
                     </li>
 
-                    <li class="p-0 list-unstyled"><a href="#expect"
-                            class="text-decoration-none text-white">What to expect</a>
+                    <li class="p-0 list-unstyled"><a href="#expect" class="text-decoration-none text-white">What to
+                            expect</a>
                     </li>
 
-                    <li class="p-0 m-0 list-unstyled"><a href="#tour"
-                            class="text-decoration-none text-white">The Trip</a>
+                    <li class="p-0 m-0 list-unstyled"><a href="#tour" class="text-decoration-none text-white">The
+                            Trip</a>
                     </li>
 
-                    <li class="p-0  list-unstyled"><a href="#included"
-                            class="text-decoration-none text-white">What's included</a>
+                    <li class="p-0  list-unstyled"><a href="#included" class="text-decoration-none text-white">What's
+                            included</a>
                     </li>
                 </ul>
             </div>
 
             <div class="col-2 text-end">
-                <button class="contact" id="openModal"
-                        class="text-decoration-none">Contact
-                        us</button>
+                <button id="openModal" class="text-decoration-none">Contact
+                    us</button>
             </div>
         </div>
 </header>
