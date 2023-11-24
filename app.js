@@ -79,8 +79,7 @@ closeBtn.addEventListener("click", () => {
 const form = document.querySelector("form");
 const fullName = document.getElementById("name");
 const email = document.getElementById("email");
-const subject = document.getElementById("subject");
-const mess = document.getElementById("mesage");
+const mess = document.getElementById("message");
 
 function sendEmail() {
     const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}<br> Message: ${mess.value}`;
@@ -91,7 +90,7 @@ function sendEmail() {
         Password: "8F08C80BDF25D3DB73F1355B91C9EDA878DA",
         To: 'manosgrammos9@gmail.com',
         From: "manosgrammos9@gmail.com",
-        Subject: subject.value,
+        Subject: "Trip Information",
         Body: bodyMessage
     }).then(
         message => alert(message) 
