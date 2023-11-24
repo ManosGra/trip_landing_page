@@ -29,7 +29,7 @@
             </div>
 
             <div class="col-2 text-end">
-                <button id="openModal" class="text-decoration-none modal-button">Contact
+                <button id="openModal" class="text-decoration-none button">Contact
                     us</button>
 
             </div>

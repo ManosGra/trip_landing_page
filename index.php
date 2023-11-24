@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="content-right/content-right.scss">
     <link rel="stylesheet" href="content-end/content-end.scss">
     <link rel="stylesheet" href="footer/footer.scss">
+    <link rel="stylesheet" href="modal/modal.scss">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -45,22 +46,7 @@
     <?php include 'content-right/content-right.php' ?>
 
     <?php include 'content-end/content-end.php' ?>
-    
-    <div class="modal" id="modal">
-        <div class="modal-inner">
-            <h2 class="mb-4">Contact us</h2>
-            <form action="#">
-                <div class="input-box">
-                    <div class="input-field field">
-                        <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
-                    </div>
 
-                    <div class="input-field field">
-                        <input type="text" placeholder="Email" id="email" class="item" autocomplete="off">
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
+    <?php include 'modal/modal.php' ?>
 
     <?php include 'footer/footer.php' ?>
