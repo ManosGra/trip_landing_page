@@ -6,7 +6,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.451);
+    background-color: rgba(0, 0, 0, 0.626);
     transition: all 0.3s ease-in-out;
     z-index: -1;
 
@@ -27,6 +27,12 @@
     .field p{
         font-size: 12px;
     }
+}
+
+.error-txt{
+    color: red!important;
+    margin: 0;
+    font-size: 13px;
 }
 
 textarea{
