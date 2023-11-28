@@ -85,9 +85,7 @@ function sendEmail() {
     const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}<br> Message: ${mess.value}`;
 
     Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "manosgrammos9@gmail.com",
-        Password: "8F08C80BDF25D3DB73F1355B91C9EDA878DA",
+        SecureToken: "67d40d83-6d54-45c6-846c-664964dfbc61",
         To: 'manosgrammos9@gmail.com',
         From: "manosgrammos9@gmail.com",
         Subject: "Trip Information",
@@ -114,6 +112,16 @@ function checkInputs() {
             item.parentElement.classList.add("error");
         }
 
+        if (items[1].value != ""){
+            checkEmail();
+        }
+
+        items[1].addEventListener("keyup", () => {
+            checkEmail();
+        });
+
+        
+
         item.addEventListener("keyup", () => {
             if (item.value != "") {
                 item.classList.remove("error");
@@ -128,9 +136,35 @@ function checkInputs() {
     }
 }
 
+function checkEmail() {
+    const emailRegex = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,3})(\.[a-z]{2,3})?$/;
+    const errorTxtEmail = document.querySelector(".error-txt.email");
+    if (!email.value.match(emailRegex)) {
+        email.classList.add("error");
+        email.parentElement.classList.add("error");
+
+        if (email.value != "") {
+            errorTxtEmail.innerText = "Enter a valid email address";
+        }
+        else {
+            errorTxtEmail.innerText = "Email Address can't be blank";
+        }
+    }
+    else {
+        email.classList.remove("error");
+        email.parentElement.classList.remove("error");
+    }
+}
+
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     checkInputs();
 
-    /*sendEmail();*/
+    if (!fullName.classList.contains("error") && !email.classList.contains("error") && !mess.classList.contains("error")){
+        sendEmail();
+
+        form.reset();
+        return false;
+    }
+
 });

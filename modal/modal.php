@@ -12,7 +12,7 @@
                 <div class="input-field field">
                     <p class="text-white mb-1 mt-4 f-bold">YOUR EMAIL*</p>
                     <input type="text" id="email" class="item w-100" autocomplete="off">
-                    <div class="error-txt f-bold mt-1">Email can't be blank</div>
+                    <div class="error-txt email f-bold mt-1">Email can't be blank</div>
                 </div>
             </div>
 
