@@ -34,12 +34,12 @@ function checkBoxes() {
 
 const header = document.querySelector('.header');
 
-window.onscroll = function(){
+window.onscroll = function () {
     var top = window.scrollY;
     console.log(top);
-    if (top >= 50){
+    if (top >= 50) {
         header.classList.add('active')
-    }else{
+    } else {
         header.classList.remove('active');
     }
 }
@@ -85,7 +85,7 @@ function sendEmail() {
     const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}<br> Message: ${mess.value}`;
 
     Email.send({
-        Host: "smtp.elasticemail.com", 
+        Host: "smtp.elasticemail.com",
         Username: "manosgrammos9@gmail.com",
         Password: "8F08C80BDF25D3DB73F1355B91C9EDA878DA",
         To: 'manosgrammos9@gmail.com',
@@ -93,12 +93,44 @@ function sendEmail() {
         Subject: "Trip Information",
         Body: bodyMessage
     }).then(
-        message => alert(message) 
+        message => {
+            if (message == "OK") {
+                Swal.fire({
+                    title: "Success",
+                    text: "Message sent successfully!",
+                    icon: "success"
+                });
+            }
+        }
     );
+}
+
+function checkInputs() {
+    const items = document.querySelectorAll(".item");
+
+    for (const item of items) {
+        if (item.value == "") {
+            item.classList.add("error");
+            item.parentElement.classList.add("error");
+        }
+
+        item.addEventListener("keyup", () => {
+            if (item.value != "") {
+                item.classList.remove("error");
+                item.parentElement.classList.remove("error");
+            }
+            else {
+                item.classList.add("error");
+                item.parentElement.classList.add("error");
+            }
+        });
+
+    }
 }
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
+    checkInputs();
 
-    sendEmail();
+    /*sendEmail();*/
 });

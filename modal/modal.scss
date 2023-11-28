@@ -16,27 +16,31 @@
         border: 2px solid white;
         border-radius: 5px;
         min-width: 500px;
-            textarea{
-        max-height: 100px;
-    }
     }
 
-    .field{
+    .field {
         margin: 10px 0;
     }
-    .field p{
+
+    .field p {
         font-size: 12px;
     }
 }
 
-.error-txt{
+
+.error-txt {
     color: #d93025;
-    margin:-5px 0 10px;
-    font-size: 13px;
+    margin: -5px 0 10px;
+    font-size: 10px;
+    letter-spacing: 0.8px;
     display: none;
 }
 
-textarea{
+.field.error .error-txt{
+    display: block;
+}
+
+textarea {
     max-height: 100px;
 }
 
