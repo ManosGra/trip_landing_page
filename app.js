@@ -168,11 +168,10 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     checkInputs();
 
-    if (!fullName.classList.contains("error") && !email.classList.contains("error") && !mess.classList.contains("error") && !checkbox.classList.contains("danger-txt")){
+    if (!fullName.classList.contains("error") && !email.classList.contains("error") && !mess.classList.contains("error")){
         sendEmail();
 
         form.reset();
         return false;
     }
-
 });
