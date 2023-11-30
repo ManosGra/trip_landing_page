@@ -27,6 +27,22 @@
     }
 }
 
+@media screen and (max-width: 420px) {
+    .contact{
+        font-size: 25px;
+        letter-spacing: 0.6px;
+    }
+
+    .modal-inner h2{
+        font-size: 33px;
+        margin-bottom: 80px!important;
+    }
+
+    .modal-inner p{
+        font-size: 15px!important;
+    }
+}
+
 
 .error-txt {
     color: #d93025;
