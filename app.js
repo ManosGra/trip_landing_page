@@ -80,8 +80,16 @@ const form = document.querySelector("form");
 const fullName = document.getElementById("name");
 const email = document.getElementById("email");
 const mess = document.getElementById("message");
+const checkbox = document.getElementById("myCheckbox");
+const errorTxt = document.querySelector('.danger-txt');
 
 function sendEmail() {
+
+    if (!checkbox.checked) {
+        errorTxt.style.opacity = 1;
+        return;
+    }
+
     const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}<br> Message: ${mess.value}`;
 
     Email.send({
@@ -160,7 +168,7 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     checkInputs();
 
-    if (!fullName.classList.contains("error") && !email.classList.contains("error") && !mess.classList.contains("error")){
+    if (!fullName.classList.contains("error") && !email.classList.contains("error") && !mess.classList.contains("error") && !checkbox.classList.contains("danger-txt")){
         sendEmail();
 
         form.reset();

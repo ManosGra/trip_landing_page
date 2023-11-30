@@ -23,10 +23,9 @@
             </div>
 
             <div class="input-field field">
-                <input type="checkbox" id="myCheckbox" autocomplete="off">
-                <label for="checkbox" class="checkbox"> By clicking this, you accept the <a href="#">privacy
-                        policy*</a></label>
-                <div class="error-txt f-bold">You must accept the privacy policy</div>
+                <input type="checkbox" id="myCheckbox" class="item me-1" autocomplete="off">By clicking this, you accept the <a href="#">privacy
+                        policy*</a>
+                <div class="danger-txt f-bold">You must accept the privacy policy</div>
             </div>
 
             <div class="d-flex flex-row justify-content-between align-items-center">

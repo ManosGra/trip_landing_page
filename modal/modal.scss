@@ -23,14 +23,26 @@
         color: white;
     }
 
-    .checkbox a{
+    .field a{
         background: transparent;
         padding: 0;
         color: white;
     }
 
+    .checkbox{
+        color: white!important;
+    }
+
     .field p {
         font-size: 12px;
+    }
+
+    .danger-txt {
+        color: #d93025;
+        margin-top: -5px;
+        font-size: 10px;
+        letter-spacing: 0.8px;
+        opacity: 0;
     }
 }
 
