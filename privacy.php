@@ -97,4 +97,6 @@
     </div>
 </div>
 
+<?php include 'modal/modal.php' ?>
+
 <?php include 'footer/footer.php' ?>
