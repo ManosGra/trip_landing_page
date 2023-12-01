@@ -1,9 +1,18 @@
 footer{
     background-color: #0a3e5c;
     padding: 30px;
+    border-top: 1px solid white;
 }
+
 @media screen and (max-width: 420px) {
     footer{
         width: 100vh;
+        text-align: center!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        text-align: center!important;
     }
 }

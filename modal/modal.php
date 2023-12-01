@@ -24,7 +24,7 @@
 
             <div class="input-field field">
                 <input type="checkbox" id="myCheckbox" autocomplete="off">
-                <label for="checkbox" class="item checkbox"> By clicking this, you accept the <a href="#">privacy
+                <label for="checkbox" class="item checkbox"> By clicking this, you accept the <a href="privacy.php">privacy
                         policy*</a></label>
                 <div class="danger-txt f-bold">You must accept the privacy policy</div>
             </div>

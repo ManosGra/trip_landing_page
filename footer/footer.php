@@ -1,10 +1,14 @@
 <footer class="footer">
     <div class="container-lg">
-        <div class="d-flex flex-row justify-content-between align-items-center">
-            <p class="copyright-text text-white p-0 m-0">2023 © Athens Tour. All rights reserved.
-            </p>
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-auto order-md-first order-last">
+                <p class="copyright-text f-bold text-white p-0 m-0">2023 © Athens Tour. All rights reserved.
+                </p>
+            </div>
 
-            <a href="#" class=" text-white m-0 p-0">Privacy Policy</a>
+            <div class="col-md-auto ">
+                <a href="privacy.php" class="f-bold text-white m-0 p-0">Privacy Policy</a>
+            </div>
         </div>
     </div>
 </footer>
