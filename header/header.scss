@@ -33,3 +33,24 @@ header.active{
         display: none!important;
      }
 }
+
+.item-list {
+    position: relative;
+}
+
+.item-list a:after{
+    content: '';
+    position: absolute;
+    background-color: aliceblue;
+    height:2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.6s;
+    z-index: 3;
+
+}
+
+.item-list a:hover:after{
+    width: 100%;
+}

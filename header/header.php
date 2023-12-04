@@ -8,21 +8,21 @@
             </div>
 
             <div class="col-6">
-                <ul class="p-0 m-0 text-white d-flex flex-row align-items-center justify-content-between">
+                <ul class="p-0 m-0 text-white d-flex flex-row align-items-center item-list justify-content-between">
 
-                    <li class="p-0 list-unstyled"><a href="/#overview"
+                    <li class=" item-list p-0 list-unstyled"><a href="/#overview"
                             class="text-decoration-none text-white">Overview</a>
                     </li>
 
-                    <li class="p-0 list-unstyled"><a href="/#expect" class="text-decoration-none text-white">What to
+                    <li class="p-0 list-unstyled item-list"><a href="/#expect" class="text-decoration-none text-white">What to
                             expect</a>
                     </li>
 
-                    <li class="p-0 m-0 list-unstyled"><a href="/#tour" class="text-decoration-none text-white">The
+                    <li class="p-0 m-0 list-unstyled item-list"><a href="/#tour" class="text-decoration-none text-white">The
                             Trip</a>
                     </li>
 
-                    <li class="p-0  list-unstyled"><a href="/#included" class="text-decoration-none text-white">What's
+                    <li class="p-0  list-unstyled item-list"><a href="/#included" class="text-decoration-none text-white">What's
                             included</a>
                     </li>
                 </ul>
