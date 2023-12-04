@@ -14,15 +14,18 @@
                             class="text-decoration-none text-white">Overview</a>
                     </li>
 
-                    <li class="p-0 list-unstyled item-list"><a href="/#expect" class="text-decoration-none text-white">What to
+                    <li class="p-0 list-unstyled item-list"><a href="/#expect"
+                            class="text-decoration-none text-white">What to
                             expect</a>
                     </li>
 
-                    <li class="p-0 m-0 list-unstyled item-list"><a href="/#tour" class="text-decoration-none text-white">The
+                    <li class="p-0 m-0 list-unstyled item-list"><a href="/#tour"
+                            class="text-decoration-none text-white">The
                             Trip</a>
                     </li>
 
-                    <li class="p-0  list-unstyled item-list"><a href="/#included" class="text-decoration-none text-white">What's
+                    <li class="p-0  list-unstyled item-list"><a href="/#included"
+                            class="text-decoration-none text-white">What's
                             included</a>
                     </li>
                 </ul>
@@ -31,8 +34,23 @@
             <div class="col-2 text-end col-md-2">
                 <button id="openModal" class="text-decoration-none button">Contact
                     us</button>
-
             </div>
         </div>
 </header>
 
+<div class="responsive-header">
+    <div class="container-lg">
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="col-6">
+                <div class="hamburger">
+                    asdasd
+                </div>
+            </div>
+            <div class="col-6 text-center">
+                <div class="logo">
+                    <a href="#" class="m-0 text-decoration-none text-white">Logo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

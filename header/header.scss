@@ -30,7 +30,7 @@ header.active{
 
 @media screen and (max-width: 992px) {
     header{
-        display: none!important;
+        display: none;
      }
 }
 
@@ -53,4 +53,17 @@ header.active{
 
 .item-list a:hover:after{
     width: 100%;
+}
+
+.responsive-header{
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .responsive-header{
+        display: block;
+        position: fixed;
+        z-index: 200;
+        width: 100%;
+    }
 }
