@@ -40,17 +40,32 @@
 
 <div class="responsive-header">
     <div class="container-lg">
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="col-6">
-                <div class="hamburger">
-                    asdasd
-                </div>
+        <div class="d-flex flex-row justify-content-between align-items-center">
+            <div class="col-4">
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-4 text-center">
                 <div class="logo">
                     <a href="#" class="m-0 text-decoration-none text-white">Logo</a>
                 </div>
             </div>
+            <div class="col-4 text-end">
+                <button id="openModalResponsive" class="text-decoration-none button">Contact us</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="mobile-nav" id="responsiveNav">
+    <div class="container-lg">
+        <div class="d-flex flex-column align-items-start text-uppercase f-bold pt-4">
+            <a href="#overview" class="mb-4 text-decoration-none text-white">Overview</a>
+            <a href="#expect" class="mb-4 text-decoration-none text-white">What to expect</a>
+            <a href="#tour" class="mb-4 text-decoration-none text-white">The Trip</a>
+            <a href="#included" class="mb-4 text-decoration-none text-white">What's included</a>
         </div>
     </div>
 </div>

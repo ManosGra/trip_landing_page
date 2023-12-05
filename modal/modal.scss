@@ -22,14 +22,14 @@
         color: white;
     }
 
-    .field a{
+    .field a {
         background: transparent;
         padding: 0;
         color: white;
     }
 
-    .checkbox{
-        color: white!important;
+    .checkbox {
+        color: white !important;
     }
 
     .field p {
@@ -43,44 +43,54 @@
         letter-spacing: 0.8px;
         opacity: 0;
     }
+
+    &.contact.open {
+        opacity: 1;
+        z-index: 5;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .modal-inner h2{
+    .modal-inner h2 {
         font-size: 33px;
-        margin-bottom: 50px!important;
+        margin-bottom: 50px !important;
     }
 
-    .error-txt{
-        font-size: 15px!important;
+    .error-txt {
+        font-size: 15px !important;
     }
 }
 
 @media screen and (max-width: 420px) {
-    .contact{
+    .contact {
         font-size: 25px;
         letter-spacing: 0.6px;
+        opacity: 0;
     }
 
-    .modal-inner h2{
+    .contact.open{
+        opacity: 1;
+        z-index: 5;
+    }
+
+    .modal-inner h2 {
         font-size: 33px;
-        margin-bottom: 80px!important;
     }
 
-    .modal-inner p{
-        font-size: 15px!important;
+    .modal-inner p {
+        font-size: 15px !important;
     }
 
-    .checkbox{
+    .checkbox {
         font-size: 15px;
     }
 
-    .checkbox a{
+    .checkbox a {
         font-size: 15px;
     }
 
-    .error-txt{
-        font-size: 20px!important;
+    .error-txt {
+        font-size: 20px !important;
     }
 }
 
@@ -93,15 +103,10 @@
     display: none;
 }
 
-.field.error .error-txt{
+.field.error .error-txt {
     display: block;
 }
 
 textarea {
     max-height: 100px;
-}
-
-& .contact.open {
-    opacity: 1;
-    z-index: 5;
 }

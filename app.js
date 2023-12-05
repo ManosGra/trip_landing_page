@@ -30,19 +30,36 @@ function checkBoxes() {
     });
 }
 
-/*Active Header */
+const menu_btn = document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile-nav');
+const mobile_nav_links = document.querySelectorAll('.mobile-nav a');
 
+menu_btn.addEventListener('click', function () {
+    menu_btn.classList.toggle('is-active');
+    mobile_menu.classList.toggle('is-active');
+});
+
+mobile_nav_links.forEach(link => {
+    link.addEventListener('click', function () {
+        menu_btn.classList.remove('is-active');
+        mobile_menu.classList.remove('is-active');
+    });
+});
+
+/*Active Header */
 const header = document.querySelector('.header');
 
 window.onscroll = function () {
     var top = window.scrollY;
     console.log(top);
+
     if (top >= 50) {
-        header.classList.add('active')
+        header.classList.add('active');
     } else {
         header.classList.remove('active');
     }
-}
+};
+
 /*Carousel Script */
 let prev = document.querySelector('.prev');
 let next = document.querySelector('.next');
@@ -65,9 +82,14 @@ next.addEventListener('click', function () {
 /*MODAL CALL */
 const openBtn = document.getElementById("openModal");
 const closeBtn = document.getElementById("closeModal");
+const openBtnResponsive = document.getElementById("openModalResponsive");
 const modal = document.getElementById("modal");
 
 openBtn.addEventListener("click", () => {
+    modal.classList.add("open");
+});
+
+openBtnResponsive.addEventListener("click", () => {
     modal.classList.add("open");
 });
 
