@@ -22,7 +22,7 @@
             collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been
             created with the help of the <a href="https://www.termsfeed.com/privacy-policy-generator/"
                 target="_blank">Privacy Policy Generator</a>.</p>
-        <h2 class="f-bold text-center my-5">Interpretation and Definitions</h2>
+        <h2 class="f-bold  my-5">Interpretation and Definitions</h2>
         <h3 class="f-bold mt-5 mb-2">Interpretation</h3>
         <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
             The following definitions shall have the same meaning regardless of whether they appear in singular or in
@@ -84,8 +84,8 @@
                 </p>
             </li>
         </ul>
-        <h2 class="f-bold my-4 text-center">Collecting and Using Your Personal Data</h2>
-        <h3 class="f-bold my-5 text-center">Types of Data Collected</h3>
+        <h2 class="f-bold my-4 ">Collecting and Using Your Personal Data</h2>
+        <h3 class="f-bold my-5 ">Types of Data Collected</h3>
 
         <h4 class="f-bold mt-5">Personal Data</h4>
         <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that
@@ -260,7 +260,7 @@
         <p>Please note, however, that We may need to retain certain information when we have a legal obligation or
             lawful basis to do so.</p>
 
-        <h3 class="f-bold mt-5 text-center">Disclosure of Your Personal Data</h3>
+        <h3 class="f-bold mt-5 ">Disclosure of Your Personal Data</h3>
 
         <h4 class="f-bold mt-5">Business Transactions</h4>
         <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We
