@@ -29,6 +29,8 @@
                 <div class="danger-txt f-bold">You must accept the privacy policy</div>
             </div>
 
+          
+
             <div class="d-flex flex-row justify-content-between align-items-center">
                 <a href="#" class="f-bold text-decoration-none button" id="closeModal">CLOSE</a>
                 <button class="f-bold button" type="submit">SEND MESSAGE</button>
