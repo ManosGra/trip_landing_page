@@ -16,7 +16,7 @@
     }
 
     .hero-content h1{
-        font-size: 91px!important;
+        font-size: 95px!important;
     }
 
     &.hero::before {
@@ -43,12 +43,13 @@
             height: 100vh;
         }
         .hero-content h1{
-            font-size: 60px!important;
+            font-size: 40px!important;
         }
     }
-
-    @media screen and (max-width: 767px) {
-
+    @media screen and (max-width: 768px){
+        .hero-content h1{
+            font-size: 60px!important;
+        }
     }
 
     @media screen and (max-width: 992px) {
@@ -58,6 +59,7 @@
         .hero-content{
             padding: 0 40px!important;
         }
+
     }
 }
 
