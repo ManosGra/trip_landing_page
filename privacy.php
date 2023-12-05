@@ -1,25 +1,15 @@
 <?php include 'head/head.php' ?>
 
-<header class="header m-0 py-4 w-100">
+<div class="policy text-white pb-4">
     <div class="container-lg">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-6">
-                <ul class="p-0 m-0 text-white d-flex flex-row align-items-center justify-content-between">
-                    <li class="p-0  list-unstyled"><a href="/index.php" class="text-decoration-none f-bold button">BACK</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-6">
-                <div class="logo">
-                    <a href="/#index.php" class="m-0 text-decoration-none text-white">Logo</a>
-                </div>
-            </div>
+        <div class="d-flex flex-row align-items-center  pt-5 justify-content-between">
+            <a class="button f-bold text-decoration-none" href="index.php">BACK</a>
+            <a href="/#index.php" class="m-0 d-block mx-auto text-decoration-none text-white">Logo</a>
         </div>
-</header>
+        <hr class="mb-5">
 
-<div class="policy text-white">
-    <div class="container-lg">
+        
+
         <h1 class="text-white mb-5">Privacy Policy</h1>
         <p class="mb-1">Company Name: Base Constructions</p>
         <p class="mb-1">Domain: baseconstructions.com</p>
