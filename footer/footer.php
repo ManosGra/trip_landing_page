@@ -2,12 +2,12 @@
     <div class="container-lg">
         <div class="row align-items-center justify-content-between">
             <div class="col-md-auto order-md-first order-last">
-                <p class="copyright-text f-bold text-white p-0 m-0">2023 © Athens Tour. All rights reserved.
+                <p class="copyright-tex text-white p-0 m-0">2023 ©Athenian Wheels. All rights reserved.
                 </p>
             </div>
 
             <div class="col-md-auto ">
-                <a href="privacy.php" class="f-bold text-white m-0 p-0">Privacy Policy</a>
+                <a href="privacy.php" class=" text-white m-0 p-0">Privacy Policy</a>
             </div>
         </div>
     </div>

@@ -2,6 +2,11 @@ footer{
     background-color: #0a3e5c;
     padding: 30px;
     border-top: 1px solid white;
+
+    p{
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
